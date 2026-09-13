@@ -46,7 +46,7 @@ and projects as an IT student focused on Java, databases, and full-stack web dev
 
 1. Clone the repository:
    ```
-   git clone https://github.com/GeorgeSew/<your-repo-name>.git
+   git clone https://github.com/GeorgeSew/My-Portfolio.git
    ```
 2. Open the folder and open `index.html` directly in your browser — no build step or server required.
 
