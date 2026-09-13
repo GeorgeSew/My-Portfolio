@@ -24,19 +24,29 @@ and projects as an IT student focused on Java, databases, and full-stack web dev
 - Course/education timeline
 - Respects `prefers-reduced-motion` for accessibility
 
+## Contact
+
+- **Email:** george1sewata@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/george-sewata-motseatsea-4a7856396
+- **GitHub:** https://github.com/GeorgeSew
+
 ## References
 
 - Built with structural and coding assistance from **Claude** (Anthropic) — used to plan the
   page structure, write the HTML/CSS/JS, and draft this README. All content (bio, project
   descriptions, course history) is my own real information, provided to and reviewed by me.
+- Design direction (circular profile photo with a glowing ring, pill-shaped buttons, dark
+  theme with a neon accent) inspired by this reference video: https://youtu.be/qJ6WboM0SNs
 - Fonts sourced from **Google Fonts** (Space Grotesk, IBM Plex Sans, IBM Plex Mono).
 - No other external templates, code snippets, or icon packs were used.
+
+> Update the live-site link above once GitHub Pages is enabled.
 
 ## Running locally
 
 1. Clone the repository:
    ```
-   git clone https://github.com/GeorgeSew/My-Portfolio.git
+   git clone https://github.com/GeorgeSew/<your-repo-name>.git
    ```
 2. Open the folder and open `index.html` directly in your browser — no build step or server required.
 
