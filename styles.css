@@ -1,18 +1,16 @@
 :root{
-  --bg: #10151c;
-  --bg-alt: #171e27;
-  --panel: #1b232d;
-  --line: #2a3441;
-  --text: #dfe6ee;
-  --text-muted: #8b98a8;
-  --accent: #2ee6a6;
-  --accent-2: #22c55e;
-  --accent-glow: rgba(46, 230, 166, 0.45);
-
+  --bg: #171717;
+  --bg-alt: #1e1e1e;
+  --panel: #232323;
+  --line: #3a3a3a;
+  --text: #eaeaea;
+  --text-muted: #a0a0a0;
+  --accent: #ff8a3d;
+  --accent-2: #e6672a;
+  --accent-glow: rgba(255, 138, 61, 0.4);
   --font-display: "Space Grotesk", sans-serif;
   --font-body: "IBM Plex Sans", sans-serif;
   --font-mono: "IBM Plex Mono", monospace;
-
   --max-width: 1080px;
   --edge: 1.5rem;
   --content-pad: max(var(--edge), calc((100% - var(--max-width)) / 2));
@@ -133,8 +131,6 @@ ul, ol, dl, menu{ margin: 0; padding: 0; list-style: none; }
 .hero::before{ top: 1.5rem; left: var(--edge); border-top: 2px solid; border-left: 2px solid; }
 .hero::after{ bottom: 1.5rem; right: var(--edge); border-bottom: 2px solid; border-right: 2px solid; }
 
-/* Portrait — circular photo with a rotating glow ring, styled after
-   the reference video: conic-gradient ring behind a round photo. */
 .hero-photo{
   position: relative;
   margin: 0 auto;
@@ -228,10 +224,10 @@ ul, ol, dl, menu{ margin: 0; padding: 0; list-style: none; }
 .btn-primary{
   background: var(--accent);
   border-color: var(--accent);
-  color: #06251a;
+  color: #2b1000;
   box-shadow: 0 0 24px -4px var(--accent-glow);
 }
-.btn-primary:hover{ background: #58f0bd; }
+.btn-primary:hover{ background: #ffa666; }
 .btn-outline{ color: var(--text); }
 .btn-outline:hover{ border-color: var(--accent); color: var(--accent); }
 
